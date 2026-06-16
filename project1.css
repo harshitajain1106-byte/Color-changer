@@ -1,0 +1,51 @@
+h1{
+text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: centre;
+    margin: 20px 0;
+
+    border-bottom : 2px solid black;
+    padding-bottom : 15px;
+    margin-bottom : 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    color : black;
+    background-color: gainsboro;
+    padding : 10px 20px;
+    border : 2px solid black;
+    border-radius: 10px;
+    margin : 0 10px;
+}
+nav a:hover{
+    background-color : black;
+    color : white;
+}
+.button{
+    display : inline-block;
+    width : 200px;
+    height: 200px;
+    border : 2px solid black;
+}
+#grey{
+    background-color:grey;
+}
+#white{
+    background-color:white;
+}
+#blue{
+    background-color:blue;
+}
+#yellow{
+    background-color:yellow;
+}
+#purple{
+    background-color: purple;
+}
